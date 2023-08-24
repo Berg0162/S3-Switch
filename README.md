@@ -9,5 +9,5 @@ The net power is the difference between the power the household is importing fro
 The present project created a simple, reliable, cost-effective, secure and fully controlled by the owner: <b>Smart-Solar-Surplus-Switch</b>.</br>
 
 
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/093440.jpg" width="415" height="553" ALIGN="left" alt="S3-Switch">
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/093440.jpg" width="315" height="453" ALIGN="left" alt="S3-Switch">
 
