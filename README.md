@@ -16,6 +16,7 @@ Homewizard should be praised for their openness with respect to the well documen
 # Components </br>
 [LilyGo ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)</br>
 
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/relay high low active 1 channel-600x600h.jpg" width="300" height="300" ALIGN="left" alt="S3-Switch"></br>
 [5V Relay 1-Channel High-active or Low-active](https://www.tinytronics.nl/shop/en/switches/relays/5v-relay-1-channel-high-active-or-low-active)</br>
 
 [Hi-Link PCB Power supply](https://www.tinytronics.nl/shop/en/power/power-supplies/5v/hi-link-pcb-power-supply-5vdc-1a-hlk-5m05)</br>
