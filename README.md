@@ -7,3 +7,5 @@ It becomes even more interesting when your solar panels are involved in the ener
 The net power is the difference between the power the household is importing from and the power the inverter exports to the utility grid at any moment in time. When the net power is negative the export (solar production) exceeds the import of power and you might want to switch on extra electric appliances (like a battery charger, kitchen boiler or something else) to have maximum benefit of the solar surplus power. A smart switch with exactly that capabibilty would come in very handy! No doubt commercial parties (like [Homewizard](https://www.homewizard.com/energy-plus/)) offer this service but always at a recurring pricing model and a security risk...</br>
 
 The present project created a simple, reliable, cost-effective, secure and fully controlled by the owner: <b>Smart-Solar-Surplus-Switch</b>.</br>
+
+<img src="https://github.com/Berg0162/s3-switch/blob/master/images/093440.jpg" width="300" height="300" ALIGN="left" alt="S3-Switch">
