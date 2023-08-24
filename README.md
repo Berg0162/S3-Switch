@@ -10,11 +10,14 @@ The present project created a simple, reliable, cost-effective, secure and fully
 
 # Homewizard WiFi P1 meter API </br>
 Homewizard should be praised for their openness with respect to the well documentated access to the P1 Meter!</br>
+
 [Get started with the Homewizard API](https://homewizard-energy-api.readthedocs.io/index.html)</br>
 
 # Components </br>
 [LilyGo ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)</br>
+
 [5V Relay 1-Channel High-active or Low-active](https://www.tinytronics.nl/shop/en/switches/relays/5v-relay-1-channel-high-active-or-low-active)</br>
+
 [Hi-Link PCB Power supply](https://www.tinytronics.nl/shop/en/power/power-supplies/5v/hi-link-pcb-power-supply-5vdc-1a-hlk-5m05)</br>
 
 # Circuitry </br>
