@@ -22,6 +22,7 @@ Homewizard should be praised for their openness with respect to the well documen
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/hi-link-pcb-power-supply-5vdc-1a-hlk-5m05-front-side-600x600.jpg" width="200" height="200" alt="S3-Switch"> <br clear="left">
 
 # Circuitry </br>
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/Circuitry.jpg" width="820" height="461" ALIGN="left" alt="S3-Switch"></br>
 
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/093440.jpg" width="315" height="453" ALIGN="left" alt="S3-Switch"></br>
 
