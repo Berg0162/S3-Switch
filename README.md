@@ -1,2 +1,2 @@
 # S3-Switch
-Smart Solar Surplus Switch
+<b>S</b>mart <b>S</b>olar <b>S</b>urplus <b>Switch</b>
