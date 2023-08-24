@@ -8,10 +8,23 @@ The net power is the difference between the power the household is importing fro
 
 The present project created a simple, reliable, cost-effective, secure and fully controlled by the owner: <b>Smart-Solar-Surplus-Switch</b>.</br>
 
+# Homewizard WiFi P1 meter API </br>
+Homewizard should be praised for their openness with respect to the well documentated access to the P1 Meter!</br>
 
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/093440.jpg" width="315" height="453" ALIGN="left" alt="S3-Switch">
+[Get started with the Homewizard API](https://homewizard-energy-api.readthedocs.io/index.html)</br>
 
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/113236.jpg" width="620" height="440" ALIGN="left" alt="S3-Switch">
+# Components </br>
+[LilyGo ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)</br>
 
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/093314.jpg" width="492" height="536" ALIGN="left" alt="S3-Switch">
+[5V Relay 1-Channel High-active or Low-active](https://www.tinytronics.nl/shop/en/switches/relays/5v-relay-1-channel-high-active-or-low-active)</br>
+
+[Hi-Link PCB Power supply](https://www.tinytronics.nl/shop/en/power/power-supplies/5v/hi-link-pcb-power-supply-5vdc-1a-hlk-5m05)</br>
+
+# Circuitry </br>
+
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/093440.jpg" width="315" height="453" ALIGN="left" alt="S3-Switch"></br>
+
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/113236.jpg" width="620" height="440" ALIGN="left" alt="S3-Switch"></br>
+
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/093314.jpg" width="492" height="536" ALIGN="left" alt="S3-Switch"></br>
 
