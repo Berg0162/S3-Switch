@@ -13,5 +13,5 @@ The present project created a simple, reliable, cost-effective, secure and fully
 
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/113236.jpg" width="620" height="440" ALIGN="left" alt="S3-Switch">
 
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/093314.jpg" width="592" height="636" ALIGN="left" alt="S3-Switch">
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/093314.jpg" width="492" height="536" ALIGN="left" alt="S3-Switch">
 
