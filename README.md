@@ -8,3 +8,4 @@ The net power is the difference between the power the household is importing fro
 
 The present project created a simple, reliable, cost-effective, secure and fully controlled by the owner: <b>Smart-Solar-Surplus-Switch</b>.</br>
 
+
