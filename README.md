@@ -1,4 +1,4 @@
-# S3-Switch Smart-Solar-Surplus-Switch
+# S3-Switch &nbsp;&nbsp;Smart-Solar-Surplus-Switch
 In Europe many households are equiped with modern meters (a.k.a. smart meters) for billing the energy consumption without human interference. These smart meters send readings to the energy supplier automatically but they also have a P1 port that gives you access to all measured energy data.
 The present project uses a commercial device to read constantly this P1 port: Homewizard P1 Meter. This P1 Meter is compatible with most modern meters in Europe.</br>
 
