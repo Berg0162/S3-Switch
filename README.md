@@ -15,11 +15,37 @@ Homewizard should be praised for their openness with respect to the well documen
 
 # Components </br>
 [LilyGo ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)</br>
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/T-DISPLAY-S3.jpg" width="500" height="500" alt="S3-Switch"> <br clear="left">
-[5V Relay 1-Channel High-active or Low-active](https://www.tinytronics.nl/shop/en/switches/relays/5v-relay-1-channel-high-active-or-low-active)</br>
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/relay high low active 1 channel-600x600h.jpg" width="200" height="200" alt="S3-Switch"> <br clear="left">
-[Hi-Link PCB Power supply](https://www.tinytronics.nl/shop/en/power/power-supplies/5v/hi-link-pcb-power-supply-5vdc-1a-hlk-5m05)</br>
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/hi-link-pcb-power-supply-5vdc-1a-hlk-5m05-front-side-600x600.jpg" width="200" height="200" alt="S3-Switch"> <br clear="left">
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/T-DISPLAY-S3.jpg" width="500" height="500" alt="S3-Switch"></br>
+<b>5V Relay 1-Channel High-active or Low-active</b></br>
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/relay high low active 1 channel-600x600h.jpg" align="left" width="200" height="200" alt="S3-Switch">
+Specifications:
+- Supply voltage: 5V DC
+- Signal voltage: 3.3-5V
+- Maximum voltage through relay: 250V AC or 110V DC
+- Resistive load: 10A (125V AC), 7A (240V AC) or 7A (28V DC)
+- Inductive load: 3A (120V AC) or 3A (28V DC)
+- 
+  </br>
+  
+Pinout:
+- DC+: 5V supply voltage
+- DC-: Ground/GND
+- IN: Signal pin
+- NO: Relay normally open
+- COM: Relay common
+- NC: Relay normally closed
+<br clear="left">
+
+<b>PCB Power supply</b></br>
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/hi-link-pcb-power-supply-5vdc-1a-hlk-5m05-front-side-600x600.jpg" align="left" width="200" height="200" alt="S3-Switch"> 
+Specifications:
+- Input voltage (AC pins): 100 - 240V AC (recommended), 90 - 264V AC (maximum)
+- Output voltage (+Vo and -Vo pins): 5V DC
+- Maximum output current: 1000mA (continuous)
+- Voltage control:  ±0.2%
+- Load regulation:  ±0.5%
+- Exit ripple: <70mV
+<br clear="left">
 
 # Circuitry </br>
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/Circuitry.jpg" width="820" height="461" ALIGN="left" alt="S3-Switch"></br>
