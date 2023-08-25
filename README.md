@@ -64,7 +64,6 @@ Specifications:
 
 # Functionality
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/093440.jpg" width="315" height="453" ALIGN="left" alt="S3-Switch"><br>
-
 - Connects to your local WiFi network (you have to supply SSID and its Passphrase)
 - Will autodetect the Homewizard P1 Meter on the same network and connects to it. Every 5 seconds it will poll for new info.
 - Displays actual time retrieved from Internet
@@ -75,4 +74,3 @@ Specifications:
 - Displays time intervals when the smart switch was activated (green ribbon)
 - Has a builtin simple webserver for local access to show status and fixed clock switch moments and duration
 - Clock switch moments and duration can be edited remotely by pointing a browser to the indicated local IP address
-- 
