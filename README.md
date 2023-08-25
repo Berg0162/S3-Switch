@@ -75,3 +75,4 @@ Specifications:
 - Displays time intervals when the smart switch was activated (green ribbon)
 - Has a builtin simple webserver for local access to show status and fixed clock switch moments and duration
 - Clock switch moments and duration can be edited by pointing a browser to the indicated local IP address
+- 
