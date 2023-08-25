@@ -51,8 +51,8 @@ Specifications:
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/Circuitry.jpg" width="820" height="461" ALIGN="left" alt="S3-Switch">
 <br clear="left">
 
-> [!WARNING] 
-> The components uses a high alternating voltage which can be potentially dangerous!
+>[!WARNING] 
+>The components use a 220 alternating voltage which can be potentially dangerous!
 
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/113236.jpg" width="620" height="440" ALIGN="left" alt="S3-Switch"></br>
 <br clear="left">
