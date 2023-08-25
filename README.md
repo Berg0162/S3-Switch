@@ -13,7 +13,7 @@ Homewizard should be praised for their openness with respect to the well documen
 
 [Get started with the Homewizard API](https://homewizard-energy-api.readthedocs.io/index.html)</br>
 
-# Components </br>
+# Electronic Components </br>
 [LilyGo ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)</br>
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/T-DISPLAY-S3.jpg" width="500" height="500" alt="S3-Switch"></br>
 <b>5V Relay 1-Channel High-active or Low-active</b></br>
@@ -47,12 +47,18 @@ Specifications:
 - Exit ripple: <70mV
 <br clear="left">
 
-# Circuitry </br>
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/Circuitry.jpg" width="820" height="461" ALIGN="left" alt="S3-Switch"></br>
+# Circuitry and physical setup</br>
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/Circuitry.jpg" width="820" height="461" ALIGN="left" alt="S3-Switch">
+<br clear="left">
 
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/093440.jpg" width="315" height="453" ALIGN="left" alt="S3-Switch"></br>
+> [!WARNING] 
+> The components uses a high alternating voltage which can be potentially dangerous!
 
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/113236.jpg" width="620" height="440" ALIGN="left" alt="S3-Switch"></br>
+<br clear="left">
 
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/093314.jpg" width="492" height="536" ALIGN="left" alt="S3-Switch"></br>
+<br clear="left">
 
+# TBD
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/093440.jpg" width="315" height="453" ALIGN="left" alt="S3-Switch"></br>
