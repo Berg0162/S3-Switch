@@ -14,8 +14,12 @@ Homewizard should be praised for their openness with respect to the well documen
 [Get started with the Homewizard API](https://homewizard-energy-api.readthedocs.io/index.html)</br>
 
 # Electronic Components </br>
-[LilyGo ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)</br>
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/T-DISPLAY-S3.jpg" width="500" height="500" alt="S3-Switch"></br>
+<b>LilyGo ESP32S3 T-display</b><br>
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/T-DISPLAY-S3.jpg" align="left" width="500" height="500" alt="S3-Switch">
+LilyGo T-Display-S3 is an ESP32-S3 development board. It is equipped with a color 1.9" LCD screen (170*320) and two programmable buttons. Communication with the display is using an I8080 interface. Its overall size has the same layout as the T-Display. The ESP32S3 allows for USB communication and can be programmed in the Arduino Integrated Development Environment (IDE).<br>
+See for specifications and use: [LilyGo ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)
+<br clear="left">
+
 <b>5V Relay 1-Channel High-active or Low-active</b></br>
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/relay high low active 1 channel-600x600h.jpg" align="left" width="200" height="200" alt="S3-Switch">
 Specifications:
@@ -24,9 +28,7 @@ Specifications:
 - Maximum voltage through relay: 250V AC or 110V DC
 - Resistive load: 10A (125V AC), 7A (240V AC) or 7A (28V DC)
 - Inductive load: 3A (120V AC) or 3A (28V DC)
-- 
-  </br>
-  
+- Status led shows relay switched ON or OFF
 Pinout:
 - DC+: 5V supply voltage
 - DC-: Ground/GND
@@ -52,7 +54,7 @@ Specifications:
 <br clear="left">
 
 >[!WARNING] 
->The components use a 220 alternating voltage which can be potentially dangerous!
+>Some components are connected to 220 Volt AC mains, you really need to know what you are doing since this can be potentially dangerous!
 
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/113236.jpg" width="620" height="440" ALIGN="left" alt="S3-Switch"></br>
 <br clear="left">
@@ -60,5 +62,16 @@ Specifications:
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/093314.jpg" width="492" height="536" ALIGN="left" alt="S3-Switch"></br>
 <br clear="left">
 
-# TBD
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/093440.jpg" width="315" height="453" ALIGN="left" alt="S3-Switch"></br>
+# Functionality
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/093440.jpg" width="315" height="453" ALIGN="left" alt="S3-Switch"><br>
+
+- Connects to your local WiFi network (you have to supply SSID and its Passphrase)
+- Will autodetect the Homewizard P1 Meter on the same network and connects to it. Every 5 seconds it will poll for new info.
+- Displays actual time retrieved from Internet
+- Displays Switch Status in addition to the Led status of the Relay board
+- Displays Net Power in digits and gauge presentation (surplus: green CCW and consumption: brown CW)
+- Switches the relay ON when Net Power reaches more than or equal -500 kW surplus (value of your choice)
+- Allows for 4 fixed clock switch moments (and duration) independent of Net Power level, visible in the display (red blocks)
+- Displays time intervals when the smart switch was activated (green ribbon)
+- Has a builtin simple webserver for local access to show status and fixed clock switch moments and duration
+- Clock switch moments and duration can be edited by pointing a browser to the indicated local IP address
