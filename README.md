@@ -113,16 +113,15 @@ Virtual COM Port Device Drivers<br>
 - USBXpress Direct Driver Support
 - Windows 7/Vista/Server 2003/XP/2000
 - Windows CE
-
+<br clear="left">
 Features<br>
 - Supports Mac, Linux, Android, WinCE, Windows 7/8/8.1/10/11...
 - Voltage output support: 5V or 3.3V
 - Integrated USB protection device: SP0503
 - 3 LEDs: TXD LED, RXD LED, POWER LED
 - Pins accessible on pinheaders: TXD, RXD, RTS, CTS
-<br clear="left">
 
-## 2.3 Boot your Sonoff in Flashing Mode<br>
+## 2.2 Boot your Sonoff in Flashing Mode<br>
 The Internet is crowded with instructions on how to flash your code to a Sonoff device. One of the most detailed instructions you can find is 
 on [Random Nerd Tutorials](https://randomnerdtutorials.com/how-to-flash-a-custom-firmware-to-sonoff/). Study their tutorial to get acquainted with the technique!
 
