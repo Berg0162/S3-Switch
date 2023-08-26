@@ -130,4 +130,4 @@ The Internet is crowded with instructions on how to flash your code to a Sonoff 
 on [Random Nerd Tutorials](https://randomnerdtutorials.com/how-to-flash-a-custom-firmware-to-sonoff/). Study their tutorial to get acquainted with the technique!
 
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/095604.jpg" width="356" height="473" ALIGN="left" alt="S3-Switch">
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/095604_detail.jpg" width="526" height="423" ALIGN="left" alt="S3-Switch">
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/095604_detail.jpg" width="426" height="323" ALIGN="left" alt="S3-Switch">
