@@ -23,6 +23,7 @@ See for specifications and use: [LilyGo ESP32S3 T-display](https://github.com/Xi
 
 ### 5V Relay 1-Channel High-active or Low-active</br>
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/relay high low active 1 channel-600x600h.jpg" align="left" width="200" height="200" alt="S3-Switch">
+
 Specifications:<br>
 - Supply voltage: 5V DC
 - Signal voltage: 3.3-5V
@@ -30,6 +31,7 @@ Specifications:<br>
 - Resistive load: 10A (125V AC), 7A (240V AC) or 7A (28V DC)
 - Inductive load: 3A (120V AC) or 3A (28V DC)
 - Status led shows relay switched ON or OFF
+  
 Pinout:<br>
 - DC+: 5V supply voltage
 - DC-: Ground/GND
@@ -41,6 +43,7 @@ Pinout:<br>
 
 ### PCB Power supply</br>
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/hi-link-pcb-power-supply-5vdc-1a-hlk-5m05-front-side-600x600.jpg" align="left" width="200" height="200" alt="S3-Switch"> 
+
 Specifications:<br>
 - Input voltage (AC pins): 100 - 240V AC (recommended), 90 - 264V AC (maximum)
 - Output voltage (+Vo and -Vo pins): 5V DC
@@ -114,6 +117,7 @@ Virtual COM Port Device Drivers<br>
 - Windows 7/Vista/Server 2003/XP/2000
 - Windows CE
 <br clear="left">
+
 Features<br>
 - Supports Mac, Linux, Android, WinCE, Windows 7/8/8.1/10/11...
 - Voltage output support: 5V or 3.3V
