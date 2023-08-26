@@ -8,13 +8,12 @@ The net power is the difference between the power the household is importing fro
 
 The present project created a simple, reliable, cost-effective, secure and fully controlled by the owner: <b>Smart-Solar-Surplus-Switch</b>.</br>
 
-# Homewizard WiFi P1 meter API </br>
+## Homewizard WiFi P1 meter API </br>
 Homewizard should be praised for their openness with respect to the well documentated access to the P1 Meter!</br>
 
 [Get started with the Homewizard API](https://homewizard-energy-api.readthedocs.io/index.html)</br>
 
 # ESP32S3-T-display
-# Sonoff ESP8266
 
 ## Electronic Components </br>
 <b>LilyGo ESP32S3 T-display</b><br>
@@ -79,6 +78,7 @@ Specifications:
 - Clock switch moments and duration can be edited remotely by pointing a browser to the indicated local IP address
 
 # Sonoff ESP8266
+
 ## Sonoff Basic R2<br>
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/094905.jpg" width="416" height="554" ALIGN="left" alt="S3-Switch"></br>
 Specifications:<br>
@@ -99,7 +99,7 @@ See the following page for more information about this product: [Sonoff Basic R2
 The CP2102 USB UART Board (type A) is an accessory board that features the single-chip USB to UART bridge CP2102 onboard.
 The board used in the project is from manufacturer: [Waveshare](https://www.waveshare.com/CP2102-USB-UART-Board-type-A.htm)
 
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/FTDI.jpg" width="560" height="560" ALIGN="left" alt="S3-Switch"></br>
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/FTDI.jpg" width="560" height="560" ALIGN="left" alt="S3-Switch">
 CP2102 features:<br>
 
 - Single-Chip USB to UART Data Transfer
@@ -115,14 +115,13 @@ Virtual COM Port Device Drivers<br>
 - Windows 7/Vista/Server 2003/XP/2000
 - Windows CE
 
-Temperature Range<br>
-- –40 to +85 °C
-<br clear="left">
-
 Features<br>
 - Supports Mac, Linux, Android, WinCE, Windows 7/8/8.1/10/11...
 - Voltage output support: 5V or 3.3V
 - Integrated USB protection device: SP0503
 - 3 LEDs: TXD LED, RXD LED, POWER LED
 - Pins accessible on pinheaders: TXD, RXD, RTS, CTS
-- Other pins are accessible on drilled holes, easily connected to user application system (separate pinheaders are provided)
+<br clear="left">
+
+## tbd<br>
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/095604.jpg" width="356" height="473" ALIGN="left" alt="S3-Switch"></br>
