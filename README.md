@@ -13,16 +13,15 @@ Homewizard should be praised for their openness with respect to the well documen
 
 [Get started with the Homewizard API](https://homewizard-energy-api.readthedocs.io/index.html)</br>
 
-# ESP32S3-T-display
-
-## Electronic Components </br>
-<b>LilyGo ESP32S3 T-display</b><br>
+# 1 ESP32S3-T-display
+## 1.1 Electronic Components </br>
+### LilyGo ESP32S3 T-display<br>
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/T-DISPLAY-S3.jpg" align="left" width="500" height="500" alt="S3-Switch">
 LilyGo T-Display-S3 is an ESP32-S3 development board. It is equipped with a color 1.9" LCD screen (170*320) and two programmable buttons. Communication with the display is using an I8080 interface. Its overall size has the same layout as the T-Display. The ESP32S3 allows for USB communication and can be programmed in the Arduino Integrated Development Environment (IDE).<br>
 See for specifications and use: [LilyGo ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)
 <br clear="left">
 
-<b>5V Relay 1-Channel High-active or Low-active</b></br>
+### 5V Relay 1-Channel High-active or Low-active</br>
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/relay high low active 1 channel-600x600h.jpg" align="left" width="200" height="200" alt="S3-Switch">
 Specifications:
 - Supply voltage: 5V DC
@@ -40,7 +39,7 @@ Pinout:
 - NC: Relay normally closed
 <br clear="left">
 
-<b>PCB Power supply</b></br>
+### PCB Power supply</br>
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/hi-link-pcb-power-supply-5vdc-1a-hlk-5m05-front-side-600x600.jpg" align="left" width="200" height="200" alt="S3-Switch"> 
 Specifications:
 - Input voltage (AC pins): 100 - 240V AC (recommended), 90 - 264V AC (maximum)
@@ -51,7 +50,7 @@ Specifications:
 - Exit ripple: <70mV
 <br clear="left">
 
-## Circuitry and physical setup</br>
+## 1.2 Circuitry and physical setup</br>
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/Circuitry.jpg" width="820" height="461" ALIGN="left" alt="S3-Switch">
 <br clear="left">
 
@@ -64,7 +63,7 @@ Specifications:
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/093314.jpg" width="492" height="536" ALIGN="left" alt="S3-Switch"></br>
 <br clear="left">
 
-## Functionality
+## 1.3 Functionality
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/093440.jpg" width="315" height="453" ALIGN="left" alt="S3-Switch"><br>
 - Connects to your local WiFi network (you have to supply SSID and its Passphrase)
 - Will autodetect the Homewizard P1 Meter on the same network and connects to it. Every 5 seconds it will poll for new info.
@@ -77,9 +76,9 @@ Specifications:
 - Has a builtin simple webserver for local access to show status and fixed clock switch moments and duration
 - Clock switch moments and duration can be edited remotely by pointing a browser to the indicated local IP address
 
-# Sonoff ESP8266
-
-## Sonoff Basic R2<br>
+# 2 Sonoff ESP8266
+## 2.1 Electronic Components </br>
+### Sonoff Basic R2
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/094905.jpg" width="416" height="554" ALIGN="left" alt="S3-Switch"></br>
 Specifications:<br>
 
@@ -94,7 +93,7 @@ Specifications:<br>
 
 See the following page for more information about this product: [Sonoff Basic R2 - WiFi Switch - ESP8266/ESP8285](https://sonoff.tech/product/diy-smart-switches/basicr2/)
 <br clear="left">
-## CP2102 USB UART Board<br>
+### CP2102 USB UART Board<br>
 
 The CP2102 USB UART Board (type A) is an accessory board that features the single-chip USB to UART bridge CP2102 onboard.
 The board used in the project is from manufacturer: [Waveshare](https://www.waveshare.com/CP2102-USB-UART-Board-type-A.htm)
@@ -123,5 +122,9 @@ Features<br>
 - Pins accessible on pinheaders: TXD, RXD, RTS, CTS
 <br clear="left">
 
-## tbd<br>
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/095604.jpg" width="356" height="473" ALIGN="left" alt="S3-Switch"></br>
+## 2.3 Boot your Sonoff in Flashing Mode<br>
+The Internet is crowded with instructions on how to flash your code to a Sonoff device. One of the most detailed instructions you can find is 
+on [Random Nerd Tutorials](https://randomnerdtutorials.com/how-to-flash-a-custom-firmware-to-sonoff/). Study their tutorial to get acquainted with the technique!
+
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/095604.jpg" width="356" height="473" ALIGN="left" alt="S3-Switch">
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/095604_detail.jpg" width="526" height="423" ALIGN="left" alt="S3-Switch">
