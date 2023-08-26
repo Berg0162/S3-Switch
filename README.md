@@ -13,7 +13,10 @@ Homewizard should be praised for their openness with respect to the well documen
 
 [Get started with the Homewizard API](https://homewizard-energy-api.readthedocs.io/index.html)</br>
 
-# Electronic Components </br>
+# ESP32S3-T-display
+# Sonoff ESP8266
+
+## Electronic Components </br>
 <b>LilyGo ESP32S3 T-display</b><br>
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/T-DISPLAY-S3.jpg" align="left" width="500" height="500" alt="S3-Switch">
 LilyGo T-Display-S3 is an ESP32-S3 development board. It is equipped with a color 1.9" LCD screen (170*320) and two programmable buttons. Communication with the display is using an I8080 interface. Its overall size has the same layout as the T-Display. The ESP32S3 allows for USB communication and can be programmed in the Arduino Integrated Development Environment (IDE).<br>
@@ -49,7 +52,7 @@ Specifications:
 - Exit ripple: <70mV
 <br clear="left">
 
-# Circuitry and physical setup</br>
+## Circuitry and physical setup</br>
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/Circuitry.jpg" width="820" height="461" ALIGN="left" alt="S3-Switch">
 <br clear="left">
 
@@ -62,7 +65,7 @@ Specifications:
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/093314.jpg" width="492" height="536" ALIGN="left" alt="S3-Switch"></br>
 <br clear="left">
 
-# Functionality
+## Functionality
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/093440.jpg" width="315" height="453" ALIGN="left" alt="S3-Switch"><br>
 - Connects to your local WiFi network (you have to supply SSID and its Passphrase)
 - Will autodetect the Homewizard P1 Meter on the same network and connects to it. Every 5 seconds it will poll for new info.
@@ -74,3 +77,52 @@ Specifications:
 - Displays time intervals when the smart switch was activated (green ribbon)
 - Has a builtin simple webserver for local access to show status and fixed clock switch moments and duration
 - Clock switch moments and duration can be edited remotely by pointing a browser to the indicated local IP address
+
+# Sonoff ESP8266
+## Sonoff Basic R2<br>
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/094905.jpg" width="416" height="554" ALIGN="left" alt="S3-Switch"></br>
+Specifications:<br>
+
+- Voltage range: 90-250V AC (50/60Hz)
+- Max current: 10A
+- Max. Power: 2200W
+- WiFi chip: ESP8266 or ESP8285
+- Dimensions: 91\*43\*25mm (l\*b\*h)
+- Wireless standard: 802.11 b/g/n
+- Security mechanism: WPA-PSK/WPA2-PSK
+- Working temperature: 0ºC-40ºC
+
+See the following page for more information about this product: [Sonoff Basic R2 - WiFi Switch - ESP8266/ESP8285](https://sonoff.tech/product/diy-smart-switches/basicr2/)
+<br clear="left">
+## CP2102 USB UART Board<br>
+
+The CP2102 USB UART Board (type A) is an accessory board that features the single-chip USB to UART bridge CP2102 onboard.
+The board used in the project is from manufacturer: [Waveshare](https://www.waveshare.com/CP2102-USB-UART-Board-type-A.htm)
+
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/FTDI.jpg" width="560" height="560" ALIGN="left" alt="S3-Switch"></br>
+CP2102 features:<br>
+
+- Single-Chip USB to UART Data Transfer
+- No external resistors required, no external crystal required
+- On-chip power-on reset circuit and voltage regulator
+- Integrated 1024-Byte EEPROM
+
+Virtual COM Port Device Drivers<br>
+- Windows 8/7/Vista/Server 2003/XP/2000
+- MAC OS-X/OS-9
+- Linux 2.40 or higher
+- USBXpress Direct Driver Support
+- Windows 7/Vista/Server 2003/XP/2000
+- Windows CE
+
+Temperature Range<br>
+- –40 to +85 °C
+<br clear="left">
+
+Features<br>
+- Supports Mac, Linux, Android, WinCE, Windows 7/8/8.1/10/11...
+- Voltage output support: 5V or 3.3V
+- Integrated USB protection device: SP0503
+- 3 LEDs: TXD LED, RXD LED, POWER LED
+- Pins accessible on pinheaders: TXD, RXD, RTS, CTS
+- Other pins are accessible on drilled holes, easily connected to user application system (separate pinheaders are provided)
