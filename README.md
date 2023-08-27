@@ -14,7 +14,13 @@ The present project created 2 instances of a <b>Smart-Solar-Surplus-Switch</b> t
 ## 1 LilyGo ESP32S3 T-display
 This board and ESP32S3 processor was selected for its excellent specifications and crisp display. Aside of gaining experience with the [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) library, creating a nice visual user interface was a dominant incentive. A lot of inspiration and practical knowledge was obtained by studying on Youtube: [the Volos Projects](https://www.youtube.com/c/VolosProjects). This ended up in a good working and visually attractive S3-Switch but definitively not the most cost-effective or simple solution to build! The solution works in the living space (as a "green" charging point) rather than hidden under kitchen sink!
 ## 2 Sonoff Basic R2 (ESP8266)
-The Sonoff was selected for its very low cost, ready for-the-purpose-package, is meant to be hacked and to upload/flash your custom firmware. It ended up as the reliable S3-Switch workhorse that is tucked away aside the fuse box...
+The Sonoff was selected for its very low cost, ready for-the-purpose-package, is meant to be hacked and to upload/flash custom firmware. It ended up as the reliable S3-Switch workhorse that is tucked away aside the fuse box...<br>
+## Arduino IDE
+The present code is developed on Arduino IDE 2.0. Notice that you will need for each of these processors (<b>ESP32S3</b> and/or <b>ESP8266</b>) an Arduino IDE that is tailored for the specific type:<br>
+
+[Installation instructions for the ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)<br>
+
+[Installation instructions for the ESP8266](https://arduino-esp8266.readthedocs.io/en/latest/installing.html)<br>
 
 # 1 ESP32S3-T-display
 ## 1.1 Electronic Components </br>
@@ -103,7 +109,8 @@ See the following page for more information about this product: [Sonoff Basic R2
 ### CP2102 USB UART Board<br>
 
 The CP2102 USB UART Board (type A) is an accessory board that features the single-chip USB to UART bridge CP2102 onboard.
-The board used in the project is from manufacturer: [Waveshare](https://www.waveshare.com/CP2102-USB-UART-Board-type-A.htm)
+The board used in the project is from manufacturer: [Waveshare](https://www.waveshare.com/CP2102-USB-UART-Board-type-A.htm)<br>
+This board is only used to flash/upload new firmware to the Sonoff. It can afterwards be disconnected and will only serve again when you need to update the firmware.
 
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/FTDI.jpg" width="259" height="471" ALIGN="left" alt="S3-Switch">
 CP2102 features:<br>
@@ -130,14 +137,14 @@ Features<br>
 - Pins accessible on pinheaders: TXD, RXD, RTS, CTS
 
 ## 2.2 Boot your Sonoff in Flashing Mode<br>
-The Internet is crowded with instructions on how to flash your code to a Sonoff device. One of the most detailed instructions you can find is 
+The Internet is crowded with instructions on how to flash your code to a Sonoff device. [Search now.](https://www.google.com/search?q=flash+sonoff) One of the most detailed instructions you can find is 
 on [Random Nerd Tutorials](https://randomnerdtutorials.com/how-to-flash-a-custom-firmware-to-sonoff/). Study their tutorial to get acquainted with the technique!
 
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/095604.jpg" width="356" height="473" ALIGN="left" alt="S3-Switch">
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/095604_detail.jpg" width="426" height="323" ALIGN="left" alt="S3-Switch">
 <br clear="left">
 
-## 2.3 Sonoff remote access using the browser<br>
+## 2.3 Sonoff S3-Switch remote access using the browser<br>
 The Sonoff S3-Switch can remotely be accessed by pointing the browser (on your desktop, tablet or smartphone) to a fixed host IP address: <b>192.168.2.200</b> or to: <b>esp8266.local</b>. The simple builtin web server will respond with a start page, that helps you select the different options.<br>
 
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/Sonoff_01.jpg" width="350" height="380" ALIGN="left" alt="S3-Switch">
