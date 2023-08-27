@@ -105,7 +105,7 @@ See the following page for more information about this product: [Sonoff Basic R2
 The CP2102 USB UART Board (type A) is an accessory board that features the single-chip USB to UART bridge CP2102 onboard.
 The board used in the project is from manufacturer: [Waveshare](https://www.waveshare.com/CP2102-USB-UART-Board-type-A.htm)
 
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/FTDI.jpg" width="560" height="560" ALIGN="left" alt="S3-Switch">
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/FTDI.jpg" width="259" height="471" ALIGN="left" alt="S3-Switch">
 CP2102 features:<br>
 
 - Single-Chip USB to UART Data Transfer
