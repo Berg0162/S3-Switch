@@ -138,7 +138,7 @@ on [Random Nerd Tutorials](https://randomnerdtutorials.com/how-to-flash-a-custom
 <br clear="left">
 
 ## 2.3 Sonoff remote access using the browser<br>
-The Sonoff S3-Switch can remotely be accessed by pointing the browser (on your desktop, tablet or smartphone) to a fixed IP address: <b>http://192.168.2.200/</b>. The simple builtin web server will respond with a selection page, that helps you select the different options.<br>
+The Sonoff S3-Switch can remotely be accessed by pointing the browser (on your desktop, tablet or smartphone) to a fixed host IP address: <b>192.168.2.200</b> or to: <b>esp8266.local</b>. The simple builtin web server will respond with a start page, that helps you select the different options.<br>
 
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/Sonoff_01.jpg" width="350" height="380" ALIGN="left" alt="S3-Switch">
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/Sonoff_02.jpg" width="350" height="380" ALIGN="left" alt="S3-Switch">
