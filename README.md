@@ -6,19 +6,23 @@ It becomes even more interesting when your solar panels are involved in the ener
 
 The net power is the difference between the power the household is importing from and the power the inverter exports to the utility grid at any moment in time. When the net power is negative the export (solar production) exceeds the import of power and you might want to switch on extra electric appliances (like a battery charger, kitchen boiler or something else) to have maximum benefit of the solar surplus power. A smart switch with exactly that capabibilty would come in very handy! No doubt commercial parties (like [Homewizard](https://www.homewizard.com/energy-plus/)) offer this service but always at a recurring pricing model and a security risk...</br>
 
-The present project created a simple, reliable, cost-effective, secure and fully controlled by the owner: <b>Smart-Solar-Surplus-Switch</b>.</br>
-
 ## Homewizard WiFi P1 meter API </br>
 Homewizard should be praised for their openness with respect to the well documentated access to the P1 Meter!</br>
-
 [Get started with the Homewizard API](https://homewizard-energy-api.readthedocs.io/index.html)</br>
+
+The present project created 2 instances of a <b>Smart-Solar-Surplus-Switch</b> that share most of the software but differ in the selected electronic components:
+## 1 LilyGo ESP32S3 T-display
+This board and ESP32S3 processor was selected for its excellent specifications and crisp display. Aside of gaining experience with the [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) library, creating a nice visual user interface was a dominant incentive. A lot of inspiration and practical knowledge was obtained by studying on Youtube: [the Volos Projects](https://www.youtube.com/c/VolosProjects). This ended up in a good working and visually attractive S3-Switch but definitively not the most cost-effective or simple solution to build! The solution works in the living space (as a "green" charging point) rather than hidden under kitchen sink!
+## 2 Sonoff Basic R2 (ESP8266)
+The Sonoff was selected for its very low cost, ready for-the-purpose-package, is meant to be hacked and to upload/flash your custom firmware. It ended up as the reliable S3-Switch workhorse that is tucked away aside the fuse box...
 
 # 1 ESP32S3-T-display
 ## 1.1 Electronic Components </br>
 ### LilyGo ESP32S3 T-display<br>
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/T-DISPLAY-S3.jpg" align="left" width="500" height="500" alt="S3-Switch">
 LilyGo T-Display-S3 is an ESP32-S3 development board. It is equipped with a color 1.9" LCD screen (170*320) and two programmable buttons. Communication with the display is using an I8080 interface. Its overall size has the same layout as the T-Display. The ESP32S3 allows for USB communication and can be programmed in the Arduino Integrated Development Environment (IDE).<br>
-See for specifications and use: [LilyGo ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)
+
+See for specifications and installation: [LilyGo ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)
 <br clear="left">
 
 ### 5V Relay 1-Channel High-active or Low-active</br>
