@@ -144,7 +144,19 @@ on [Random Nerd Tutorials](https://randomnerdtutorials.com/how-to-flash-a-custom
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/095604_detail.jpg" width="426" height="323" ALIGN="left" alt="S3-Switch">
 <br clear="left">
 
-## 2.3 Sonoff S3-Switch remote access using the browser<br>
+## 2.3 Entering the SSID and Pasword of your local WiFi network
+The <b>Sonoff S3-Switch</b> supports Access Point mode (at startup) that allows you to use the S3-Switch to create a temporary WiFi network to connect. This is similar to WiFi connection sharing available on phones (a.k.a. hotspot). As with phones, the operation of a WiFi router is simulated: this is known as a Soft AP (for “software” WiFi access point). With Access Point mode one creates a private WiFi local area network wholly isolated from others.
+At startup the S3-Switch checks for a <b>valid</b> SSID and Passphrase to connect to your local WiFi network. If this check fails the S3-Switch starts Access Point mode to allow you to enter the credentials of the WiFi router of your choice and allows the ESP32 to connect to the local WiFi network. Most connected objects use this principle to connect to the home WiFi.
+After the valid SSID and Passphrase is checked this information is stored persistently and the S3-Switch will use these data, the next time it is powered or reset. Entering the SSID info is a one-time user action! 
+If the S3-Switch is in AP mode:
+- On your phone/tablet connect to the open WiFi network with name: <b>ESP32-AP</b> (password: 12345678) 
+- Point your browser to the fixed IP Address: <b>192.168.4.1</b>
+- Your browser will show a form
+- Enter the SSID and Password. Press Submit button..
+- Receipt will be confirmed!
+If all goes well, the S3-Switch now (always) connects to the local WiFi network of your choice!
+
+## 2.4 Sonoff S3-Switch remote access using the browser<br>
 The Sonoff S3-Switch can remotely be accessed by pointing the browser (on your desktop, tablet or smartphone) to a fixed host IP address: <b>192.168.2.200</b> or to: <b>esp8266.local</b>. The simple builtin web server will respond with a start page, that helps you select the different options.<br>
 
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/Sonoff_01.jpg" width="350" height="380" ALIGN="left" alt="S3-Switch">
