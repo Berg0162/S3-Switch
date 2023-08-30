@@ -155,7 +155,7 @@ on [Random Nerd Tutorials](https://randomnerdtutorials.com/how-to-flash-a-custom
 <br clear="left">
 
 ## 2.4 Connection scheme and colors used in the project:<br>
-<b>>>>> Check for 3.3V jumper setting of the Waveshare board <<<<</b>
+<b>Check for 3.3V jumper setting on the Waveshare board!</b>
 |Waveshare pins|SONOFF pins|Color|
 |--------------|--------------|--------------|
 |Vcc |3.3V|Red|
