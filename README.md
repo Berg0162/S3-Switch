@@ -154,7 +154,7 @@ on [Random Nerd Tutorials](https://randomnerdtutorials.com/how-to-flash-a-custom
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/095604_detail.jpg" width="426" height="323" ALIGN="left" alt="S3-Switch">
 <br clear="left">
 
-## 2.4 Connection scheme and colors used in the project:<br>
+## 2.4 Connection scheme and colors used in the project<br>
 <b>Check for 3.3V jumper setting on the Waveshare board!</b>
 |Waveshare pins|SONOFF pins|Color|
 |--------------|--------------|--------------|
