@@ -88,7 +88,7 @@ Specifications:<br>
 - Allows for 4 fixed clock switch moments (and duration) independent of Net Power level, visible in the display (red blocks)
 - Displays time intervals when the smart switch was activated (green ribbon)
 - Has a builtin simple webserver for local access to show status and edit remotely clock switch moments and duration
-- Point a browser to the local IP address: <b>192.168.2.100</b>
+- Point a browser to the local fixed IP address: <b>192.168.2.100</b> or to: <b>esp32s3.local</b>
 <br clear="left">
 
 # 2 S3-Switch with Sonoff ESP8266
@@ -146,7 +146,7 @@ Features<br>
 - Allows for 4 fixed clock switch moments (and duration) independent of Net Power level
 - Button allows for toggling the switch on or off
 - Has a builtin simple webserver for local access to show status and edit remotely fixed clock switch moments and duration
-- Point a browser to the local IP address: <b>192.168.2.200</b>
+- Point a browser to the local fixed IP address: <b>192.168.2.200</b> or to: <b>esp8266.local</b>
 
 ## 2.3 Boot your Sonoff in Flashing Mode<br>
 The Internet is crowded with instructions on how to flash your code to a Sonoff device. [Search now.](https://www.google.com/search?q=flash+sonoff) One of the most detailed instructions you can find is 
