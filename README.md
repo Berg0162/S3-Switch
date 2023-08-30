@@ -143,7 +143,7 @@ Features<br>
 - Switches the relay ON when Net Power reaches more than or equal -500 kW surplus (value of your choice)
 - Allows for 4 fixed clock switch moments (and duration) independent of Net Power level
 - Button allows for toggling the switch on or off
-- Has a builtin simple webserver for local access to show status and (edit) fixed clock switch moments and duration
+- Has a builtin simple webserver for local access to show status and edit remotely fixed clock switch moments and duration
 - Point a browser to the local IP address: <b>192.168.2.200</b>
 
 ## 2.3 Boot your Sonoff in Flashing Mode<br>
