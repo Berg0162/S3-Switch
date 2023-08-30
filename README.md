@@ -28,7 +28,7 @@ The present code is developed on Arduino IDE 2.0. Notice that you will need for 
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/T-DISPLAY-S3.jpg" align="left" width="500" height="500" alt="S3-Switch">
 LilyGo T-Display-S3 is an ESP32-S3 development board. It is equipped with a color 1.9" LCD screen (170*320) and two programmable buttons. Communication with the display is using an I8080 interface. Its overall size has the same layout as the T-Display. The ESP32S3 allows for USB communication and can be programmed in the Arduino Integrated Development Environment (IDE).<br>
 
-See for specifications and installation: [LilyGo ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)
+See for specifications, installation and setup: [LilyGo ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)
 <br clear="left">
 
 ### 5V Relay 1-Channel High-active or Low-active</br>
@@ -131,12 +131,22 @@ Virtual COM Port Device Drivers<br>
 
 Features<br>
 - Supports Mac, Linux, Android, WinCE, Windows 7/8/8.1/10/11...
-- Voltage output support: 5V or 3.3V
+- Voltage output support: 5V or 3.3V <b>--> Check for 3.3V setting!!!</b>
 - Integrated USB protection device: SP0503
 - 3 LEDs: TXD LED, RXD LED, POWER LED
 - Pins accessible on pinheaders: TXD, RXD, RTS, CTS
 
-## 2.2 Boot your Sonoff in Flashing Mode<br>
+## 2.2 Functionality
+- Connects to your local WiFi network (you have to supply SSID and its Passphrase)
+- Will autodetect the Homewizard P1 Meter on the same network and connects to it. Every 5 seconds it will poll for new info.
+- Led will indicate switch status: blue blinking -> connecting; blue continuous -> AP mode; red continuous S3-Switch is ON
+- Switches the relay ON when Net Power reaches more than or equal -500 kW surplus (value of your choice)
+- Allows for 4 fixed clock switch moments (and duration) independent of Net Power level
+- Button allows for toggling the switch on or off
+- Has a builtin simple webserver for local access to show status and (edit) fixed clock switch moments and duration
+- Point a browser to the local IP address: <b>192.168.2.200</b>
+
+## 2.3 Boot your Sonoff in Flashing Mode<br>
 The Internet is crowded with instructions on how to flash your code to a Sonoff device. [Search now.](https://www.google.com/search?q=flash+sonoff) One of the most detailed instructions you can find is 
 on [Random Nerd Tutorials](https://randomnerdtutorials.com/how-to-flash-a-custom-firmware-to-sonoff/). Study their tutorial to get acquainted with the technique!
 
@@ -144,19 +154,29 @@ on [Random Nerd Tutorials](https://randomnerdtutorials.com/how-to-flash-a-custom
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/095604_detail.jpg" width="426" height="323" ALIGN="left" alt="S3-Switch">
 <br clear="left">
 
-## 2.3 Entering the SSID and Pasword of your local WiFi network
+## 2.4 Connection scheme and colors used in the project:<br>
+<b>>>>> Check for 3.3V jumper setting of the Waveshare board <<<<</b>
+|Waveshare pins|SONOFF pins|Color|
+|--------------|--------------|--------------|
+|Vcc |3.3V|Red|
+|TxD |Rx|Orange|
+|RxD |Tx|Yellow|
+|Gnd |Gnd|Black|
+
+## 2.5 Entering the SSID and Pasword of your local WiFi network
 The <b>Sonoff S3-Switch</b> supports Access Point mode (at startup) that allows you to use the S3-Switch to create a temporary WiFi network to connect. This is similar to WiFi connection sharing available on phones (a.k.a. hotspot). As with phones, the operation of a WiFi router is simulated: this is known as a Soft AP (for “software” WiFi access point). With Access Point mode one creates a private WiFi local area network wholly isolated from others.
-At startup the S3-Switch checks for a <b>valid</b> SSID and Passphrase to connect to your local WiFi network. If this check fails the S3-Switch starts Access Point mode to allow you to enter the credentials of the WiFi router of your choice and allows the ESP32 to connect to the local WiFi network. Most connected objects use this principle to connect to the home WiFi.
+At startup the S3-Switch checks for a <b>valid</b> SSID and Passphrase to connect to your local WiFi network. If this check fails the S3-Switch starts Access Point mode to allow you to enter the credentials of the WiFi router of your choice and allows the Sonoff S3-Switch to connect to the local WiFi network. Most connected objects use this principle to connect to the home WiFi.
 After the valid SSID and Passphrase is checked this information is stored persistently and the S3-Switch will use these data, the next time it is powered or reset. Entering the SSID info is a one-time user action! 
 If the S3-Switch is in AP mode:
-- On your phone/tablet connect to the open WiFi network with name: <b>ESP32-AP</b> (password: 12345678) 
+- On your phone/tablet connect to the open WiFi network with name: <b>ESP8266-AP</b> (NO password!)
+- Connect your phone to this hotspot
 - Point your browser to the fixed IP Address: <b>192.168.4.1</b>
 - Your browser will show a form
 - Enter the SSID and Password. Press Submit button..
 - Receipt will be confirmed!
 If all goes well, the S3-Switch now (always) connects to the local WiFi network of your choice!
 
-## 2.4 Sonoff S3-Switch remote access using the browser<br>
+## 2.6 Sonoff S3-Switch remote access using the browser<br>
 The Sonoff S3-Switch can remotely be accessed by pointing the browser (on your desktop, tablet or smartphone) to a fixed host IP address: <b>192.168.2.200</b> or to: <b>esp8266.local</b>. The simple builtin web server will respond with a start page, that helps you select the different options.<br>
 
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/Sonoff_01.jpg" width="350" height="380" ALIGN="left" alt="S3-Switch">
