@@ -11,9 +11,9 @@ Homewizard should be praised for their openness with respect to the well documen
 [Get started with the Homewizard API](https://homewizard-energy-api.readthedocs.io/index.html)</br>
 
 The present project created 2 instances of a <b>Smart-Solar-Surplus-Switch</b> that share most of the software but differ in the selected electronic components:
-## 1 LilyGo ESP32S3 T-display
+## 1 S3-Switch with LilyGo ESP32S3 T-display
 This board and ESP32S3 processor was selected for its excellent specifications and crisp display. Aside of gaining experience with the [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) library, creating a nice visual user interface was a dominant incentive. A lot of inspiration and practical knowledge was obtained by studying on Youtube: [the Volos Projects](https://www.youtube.com/c/VolosProjects). This ended up in a good working and visually attractive S3-Switch but definitively not the most cost-effective or simple solution to build! The solution works in the living space (as a "green" charging point) rather than hidden under the kitchen sink!
-## 2 Sonoff Basic R2 (ESP8266)
+## 2 S3-Switch with Sonoff Basic R2 (ESP8266)
 The Sonoff was selected for its very low cost, ready for-the-purpose-package, is meant to be hacked and to upload/flash custom firmware. It ended up as the reliable S3-Switch workhorse that is tucked away aside the fuse box...<br>
 ## Arduino IDE
 The present code is developed on Arduino IDE 2.0. Notice that you will need for each of these processors (<b>ESP32S3</b> and/or <b>ESP8266</b>) an Arduino IDE that is tailored for the specific type:<br>
@@ -22,7 +22,7 @@ The present code is developed on Arduino IDE 2.0. Notice that you will need for 
 
 [Installation instructions for the ESP8266](https://arduino-esp8266.readthedocs.io/en/latest/installing.html)<br>
 
-# 1 ESP32S3-T-display
+# 1 S3-Switch with ESP32S3-T-display
 ## 1.1 Electronic Components </br>
 ### LilyGo ESP32S3 T-display<br>
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/T-DISPLAY-S3.jpg" align="left" width="500" height="500" alt="S3-Switch">
@@ -77,7 +77,8 @@ Specifications:<br>
 <br clear="left">
 
 ## 1.3 Functionality
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/093440.jpg" width="315" height="453" ALIGN="left" alt="S3-Switch"><br>
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/093440.jpg" width="315" height="453" ALIGN="left" alt="S3-Switch">
+
 - Connects to your local WiFi network (you have to supply SSID and its Passphrase)
 - Will autodetect the Homewizard P1 Meter on the same network and connects to it. Every 5 seconds it will poll for new info.
 - Displays actual time retrieved from Internet
@@ -86,10 +87,11 @@ Specifications:<br>
 - Switches the relay ON when Net Power reaches more than or equal -500 kW surplus (value of your choice)
 - Allows for 4 fixed clock switch moments (and duration) independent of Net Power level, visible in the display (red blocks)
 - Displays time intervals when the smart switch was activated (green ribbon)
-- Has a builtin simple webserver for local access to show status and fixed clock switch moments and duration
-- Clock switch moments and duration can be edited remotely by pointing a browser to the indicated local IP address
+- Has a builtin simple webserver for local access to show status and edit remotely clock switch moments and duration
+- Point a browser to the local IP address: <b>192.168.2.100</b>
+<br clear="left">
 
-# 2 Sonoff ESP8266
+# 2 S3-Switch with Sonoff ESP8266
 ## 2.1 Electronic Components </br>
 ### Sonoff Basic R2
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/094905.jpg" width="416" height="554" ALIGN="left" alt="S3-Switch"></br>
