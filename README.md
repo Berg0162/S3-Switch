@@ -186,3 +186,4 @@ The Sonoff S3-Switch can remotely be accessed by pointing the browser (on your d
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/Sonoff_03.jpg" width="350" height="380" ALIGN="left" alt="S3-Switch">
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/Sonoff_04.jpg" width="350" height="380" ALIGN="left" alt="S3-Switch">
 
+
