@@ -10,14 +10,18 @@ The net power is the difference between the power the household is importing fro
 Homewizard should be praised for their openness with respect to the well documentated access to the P1 Meter!</br>
 [Get started with the Homewizard API](https://homewizard-energy-api.readthedocs.io/index.html)</br>
 
+## Arduino IDE 2.2.1
+The present code is developed on Arduino IDE 2.0. Notice that you will need for each of these processors (<b>ESP32S3</b> and/or <b>ESP8266</b>) an Arduino IDE that is tailored for the specific type:<br>
+
 The present project created 2 instances of a <b>Smart-Solar-Surplus-Switch</b> that share most of the software but differ in the selected electronic components:
 ## 1 S3-Switch with LilyGo ESP32S3 T-display
 This board and ESP32S3 processor was selected for its excellent specifications and crisp display. Aside of gaining experience with the [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) library, creating a nice visual user interface was a dominant incentive. A lot of inspiration and practical knowledge was obtained by studying on Youtube: [the Volos Projects](https://www.youtube.com/c/VolosProjects). This ended up in a good working and visually attractive S3-Switch but definitively not the most cost-effective or simple solution to build! The solution works in the living space (as a "green" charging point) rather than hidden under the kitchen sink!
 ## 2 S3-Switch with Sonoff Basic R2 (ESP8266)
 The Sonoff was selected for its very low cost, ready for-the-purpose-package, is meant to be hacked and to upload/flash custom firmware. It ended up as the reliable S3-Switch workhorse that is tucked away aside the fuse box...<br>
-## Arduino IDE
-The present code is developed on Arduino IDE 2.0. Notice that you will need for each of these processors (<b>ESP32S3</b> and/or <b>ESP8266</b>) an Arduino IDE that is tailored for the specific type:<br>
 
+# 1 S3-Switch with ESP32S3-T-display
+
+## 1.0 Before you start
 [Installation instructions for the ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)<br>
 If you click the Arduino IDE 2.0 <b>Tools</b> menu the settings for the <b>ESP32S3</b> processor and the project are the following:
 <p align=center>
@@ -25,14 +29,6 @@ If you click the Arduino IDE 2.0 <b>Tools</b> menu the settings for the <b>ESP32
 </p>
 <br clear="left">
 
-[Installation instructions for the ESP8266](https://arduino-esp8266.readthedocs.io/en/latest/installing.html)<br>
-If you click the Arduino IDE 2.0 <b>Tools</b> menu the settings for the <b>ESP8266</b> processor and the project are the following:
-<p align=center>
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/Sonoff_ESP8266_Tools_Settings.jpg" width="500" height="500" alt="S3-Switch">
-</p>
-<br clear="left">
-
-# 1 S3-Switch with ESP32S3-T-display
 ## 1.1 Electronic Components </br>
 ### LilyGo ESP32S3 T-display<br>
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/T-DISPLAY-S3.jpg" align="left" width="500" height="500" alt="S3-Switch">
@@ -102,6 +98,15 @@ Specifications:<br>
 <br clear="left">
 
 # 2 S3-Switch with Sonoff ESP8266
+## 2.0 Before you start
+
+[Installation instructions for the ESP8266](https://arduino-esp8266.readthedocs.io/en/latest/installing.html)<br>
+If you click the Arduino IDE 2.0 <b>Tools</b> menu the settings for the <b>ESP8266</b> processor and the project are the following:
+<p align=center>
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/Sonoff_ESP8266_Tools_Settings.jpg" width="500" height="500" alt="S3-Switch">
+</p>
+<br clear="left">
+
 ## 2.1 Electronic Components </br>
 ### Sonoff Basic R2
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/094905.jpg" width="416" height="554" ALIGN="left" alt="S3-Switch"></br>
