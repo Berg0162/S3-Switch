@@ -20,6 +20,8 @@ The present code is developed on Arduino IDE 2.0. Notice that you will need for 
 
 [Installation instructions for the ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)<br>
 
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/LilyGO_ESP32S3_Tools_Settings.png" align="left" width="300" height="300" alt="S3-Switch"><br>
+
 [Installation instructions for the ESP8266](https://arduino-esp8266.readthedocs.io/en/latest/installing.html)<br>
 
 # 1 S3-Switch with ESP32S3-T-display
