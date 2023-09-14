@@ -103,7 +103,7 @@ Specifications:<br>
 ## 2.0 Before you start
 
 Please follow the installation instructions for the [ESP8266 processor](https://arduino-esp8266.readthedocs.io/en/latest/installing.html)<br>
-If you click the menu bar of Arduino IDE 2.2 <b>Tools</b>, the settings for the <b>ESP8266</b> processor and the project are the following:
+If you select in the menu bar of Arduino IDE 2.2 <b>Tools</b>, the settings for the <b>ESP8266</b> processor and the project are the following:
 <p align=center>
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/Sonoff_ESP8266_Tools_Settings.jpg" width="500" height="500" alt="S3-Switch">
 </p>
