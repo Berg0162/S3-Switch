@@ -19,7 +19,7 @@ The Sonoff was selected for its very low cost, ready for-the-purpose-package, is
 The present code is developed on Arduino IDE 2.0. Notice that you will need for each of these processors (<b>ESP32S3</b> and/or <b>ESP8266</b>) an Arduino IDE that is tailored for the specific type:<br>
 
 [Installation instructions for the ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)<br>
-
+If you click the Arduino IDE 2.0 <b>Tools</b> menu the settings for this project are the following:
 <img src="https://github.com/Berg0162/s3-switch/blob/main/images/LilyGO_ESP32S3_Tools_Settings.png" align="center" width="400" height="400" alt="S3-Switch">
 <br clear="left">
 
