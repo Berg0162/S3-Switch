@@ -21,7 +21,7 @@ The present code is developed on Arduino IDE 2.0. Notice that you will need for 
 [Installation instructions for the ESP32S3 T-display](https://github.com/Xinyuan-LilyGO/T-Display-S3)<br>
 If you click the Arduino IDE 2.0 <b>Tools</b> menu the settings for the <b>ESP32S3</b> processor and the project are the following:
 <p align=center>
-<img src="https://github.com/Berg0162/s3-switch/blob/main/images/LilyGO_ESP32S3_Tools_Settings.png" width="400" height="400" alt="S3-Switch">
+<img src="https://github.com/Berg0162/s3-switch/blob/main/images/LilyGO_ESP32S3_Tools_Settings.png" width="350" height="400" alt="S3-Switch">
 </p>
 <br clear="left">
 
